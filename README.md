@@ -1,40 +1,36 @@
 # from-e-commerce-to-ching-ching
 Object - Relational Mapping 
 
-
-# company-me
-
-
 ## Description 
 
-* This is a command-line application that creates a business database using mysql2, inquirer, node.js. 
+* This a Command line application, ran completely from your terminal. With the ability to add, edit, uupdate and delete.
 
 ## User Story 
 
-* AS A business owner
-I WANT to be able to view and manage the departments, roles, and employees in my company
-SO THAT I can organize and plan my business
-
+* AS A manager at an internet retail company
+I WANT a back end for my e-commerce website that uses the latest technologies
+SO THAT my company can compete with other e-commerce companies
 
 ## Features
 
-* Prompt User to add Company departments
-* Prompt User to add employee roles(jobs)
-* Prompt User to add employees 
-* Prompt User to update employee and update employee role
+* Creating database 
+* Add, Edit, Update and Delete Categories, Products, and Tags.
 
 ## Installation
 
-* npm install
-* Then user must create a .env file 
-* Once all packages are set start application in terminal command line using node index.js
+* First run Mysql in the terminal, then run source db/schema.sql, quit out of the mysql shell, the use npm run seed, then run npm start, open up insomnia to test all get, post, put and delete functions. For any issue please see walk through video. 
+
 ## Dependencies
 
-* No Dependencies for this Application
-
+* [dotenv]
+* [Express]
+* [Mysql2]
+* [Sequelize]
+* [Nodemon]
+* [Insomnia](https://insomnia.rest/)
 ## License
 
-* No Licenses for this Application 
+* ISC
 
 
 ## Credits 
@@ -52,17 +48,19 @@ SO THAT I can organize and plan my business
 ## Backend
 
 * [node.js](https://nodejs.org/en/)
+* [nodemon](https://www.npmjs.com/package/nodemon)
 * [MySql](https://www.npmjs.com/package/mysql2)
 * [Inquirer](https://www.npmjs.com/package/inquirer)
  
 ## Repo
 
-* (https://github.com/Jump89/company-me)
+* (https://github.com/Jump89/from-e-commerce-to-ching-ching)
 
 ## Walk Through Video 
 
-* (https://watch.screencastify.com/v/y1YW8IPLJ7p6PQB7zLrp)
+* (https://drive.google.com/file/d/12_PrGBcAHH0YrY1k3kcBOp11o_KuUiH-/view)
+* (https://drive.google.com/file/d/11ctmCcZ-vwvKl1LbBnZclBRXtzUn3noI/view)
 
 ## Screen Shoot of Application
 
-* ![](./image/screenshot.png)
+* ![]()N/A
