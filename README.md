@@ -3,7 +3,7 @@ Object - Relational Mapping
 
 ## Description 
 
-* This a Command line application, ran completely from your terminal. With the ability to add, edit, uupdate and delete.
+* This a Command line application, ran completely from your terminal. With the ability to add, edit, update and delete.
 
 ## User Story 
 
@@ -31,7 +31,6 @@ SO THAT my company can compete with other e-commerce companies
 ## License
 
 * ISC
-
 
 ## Credits 
 
